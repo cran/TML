@@ -1,6 +1,6 @@
-f07eb1e2d52f8e90e471787bb755f3df *DESCRIPTION
+829f2fbcfdbd04a060489e036cd9fb47 *DESCRIPTION
 c4c7de4880255818007d1295313d4cc9 *LICENSE
-87f3707401092e22a780520ad8f2fac3 *NAMESPACE
+33f1876d255cf4ba64f22e71cbd6be6e *NAMESPACE
 5aa9449a626d2125fce19aa4b771455a *R/FWpoint_numerical.R
 19c8eb912f77acc919309659543ba90e *R/FWpoint_numerical_with_regularization.R
 08e61269d95fac951b0e6c0329f024fb *R/HAR.TLineSeg.Norm.R
@@ -20,7 +20,8 @@ affd4d93322915a386d31bf560cf1a08 *R/Points.TLineSeg.R
 842f9e91746ac83d764c64ef2994690d *R/Tropical.HAR.w.extrapolation.R
 12455b9106703908f3ccfe34ebc488de *R/Ultrametrics.HAR.R
 98ee0f9c044539e22bc3c39de33b8db0 *R/bw.nn.R
-4742acb72557667797f82233b5849bec *R/draw.tpolytope.R
+a6084a38dc3e3eaec02df5d95801e197 *R/convert.to.tree.R
+6e6feed8ab242a8163135ee4cf5f7e38 *R/draw.tpolytope.R
 85bc2156949c85d43a42b22bf205d20c *R/finding.pair.R
 c22ff59bc197f267c06cb65f1f03f8c8 *R/hyper3D_max.R
 00536768fa5b9361f04ecc9546b89ec8 *R/kernel.ultrametric.R
@@ -54,7 +55,7 @@ b783cff031d17334941c32fad0fec38f *R/trop_dist.R
 154fab8094fa5345e7d205a2a61f7d86 *R/tropical.HC.AGNES.R
 aa74f32dd2fb45b41d55cfb4e1f30229 *R/tropical.KDE.R
 83f2645834db741e09b8d36f7bfc3288 *R/tropical.PCA.R
-d0c96be1cb505cfe4594fbfcc9289605 *R/tropical.ball.verts.R
+f4be0b42a16c47e37a4c1d78942421f5 *R/tropical.ball.verts.R
 132f32e5f52153e668eeacd015317596 *R/tropical.linkages.R
 e3755ac7b591aa06ad68af25bc8f6160 *R/tropical_logistic_regression.R
 42ed0042e60ed341621d970ed433913d *R/vector_to_equidistant_tree.R
@@ -84,7 +85,8 @@ bdf248f47817f5753da354ae3b88b8ac *man/Tropical.HC.AGNES.Rd
 51cbb4306f8e24469c22fdf01c9458ee *man/bw.nn.Rd
 e70c9ba11d43f80c4f2f6bf096218ffa *man/cluster.ratio_HC.Rd
 03ceab4ca429718576ef5011df9241bf *man/cluster.ratio_KM.Rd
-7de022348b7038b73d8feab146dd9e85 *man/draw.tpolytope.Rd
+96af1ef43de2e9bf80e4060aad398af5 *man/convert.to.tree.Rd
+42d80690bcc755301a3f3c4212e20a8c *man/draw.tpolytope.Rd
 cda25984ae74b4bd23fc981f92fcd010 *man/hyper_3D.Rd
 753c1860c3101b6c8baceec82ebbe551 *man/lung_fish.Rd
 14079cd60e1ed69c58803db95b195a77 *man/max_ins_ball.Rd
@@ -106,7 +108,7 @@ fbadc843b0cca28514a63bf8dc58f9af *man/sigmoid.Rd
 0ecb34a73fe30897317ed20f7eb68f50 *man/trop.dist.hyp_min.Rd
 20b38b82346b74d5e68697dd4b05b0ed *man/trop.logistic.regression.Rd
 46a2ab8acc8c59d2d43e2c7a3e2c690c *man/trop.tri.plot.w.pts.Rd
-90d915b651da3798974b267d19039bc9 *man/trop_bal.vert.Rd
+8bba6dc5b0cc72e866fe61e5090220b5 *man/trop_bal.vert.Rd
 904bee83d3560e4bc0116dfe980f66a4 *man/trop_wi_dist.Rd
 02da4a3ce15fe67b6867e4f8e6953865 *man/tropical.Gaussian.MH.Rd
 d0126db04f1d1a1a0592da8cef08fe3f *man/tropical.Gaussian.Rd
