@@ -4,26 +4,30 @@
 \alias{Tropical.HC.AGNES}
 \title{Agglomerative (AGNES) tropical hierarchical clustering}
 \usage{
-Tropical.HC.AGNES(D, method = "average")
+Tropical.HC.AGNES(D, method = mean)
 }
 \arguments{
-\item{D}{matrix of points defining a tropical polytope.  Rows are the tropical points}
+\item{D}{matrix of points defining a tropical polytope.  Rows are the
+tropical points}
 
-\item{method}{linkage method: "average", "min", or "max"}
+\item{method}{linkage method: mean, min, or max}
 }
 \value{
-list of distances in when merges occur; list of indices of points in each cluster
+list of distances in when merges occur; list of indices of points in
+each cluster
 }
 \description{
-This function performs agglomerative (AGNES) hierarchical clustering over the space of ultrametrics defining the space of equidistant trees
+This function performs agglomerative (AGNES) hierarchical clustering over the
+space of ultrametrics defining the space of equidistant trees
 }
 \examples{
 \donttest{P <-Sim_points
-Tropical.HC.AGNES(P, method="average")
+Tropical.HC.AGNES(P, method=mean)
 }
 }
 \references{
-David Barnhill, Ruriko Yoshida (2023). Clustering Methods Over the Tropically Convex Sets.
+David Barnhill, Ruriko Yoshida (2023). Clustering Methods Over
+the Tropically Convex Sets.
 }
 \author{
 David Barnhill \email{david.barnhill@nps.edu}

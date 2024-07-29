@@ -2,14 +2,17 @@
 % Please edit documentation in R/TLineSeg.R
 \name{TLineSeg}
 \alias{TLineSeg}
-\title{Construct a max-plus tropical line segment between two points}
+\title{Construct a max- or min-plus tropical line segment between two points}
 \usage{
-TLineSeg(D1, D2)
+TLineSeg(D1, D2, tadd = max)
 }
 \arguments{
 \item{D1}{point in the tropical projective torus}
 
 \item{D2}{point in the tropical projective torus}
+
+\item{tadd}{function; max indicates max-plus addition, min indicates min-plus
+addition. Defaults to max}
 }
 \value{
 list of points defining the tropical line segment
@@ -21,6 +24,7 @@ This function constructs a max-plus tropical line segment between two points
 D1 <-c(0,4,2)
 D2 <- c(0,7,-1)
 TLineSeg(D1, D2)
+TLineSeg(D1, D2,tadd=min)
 }
 \author{
 Ruriko Yoshida \email{ryoshida@nps.edu}
